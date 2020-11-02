@@ -34,7 +34,7 @@ class Wektor2D
 };
 Wektor2D operator+(Wektor2D a, Wektor2D b)
 {
-  Wektor2D suma();
+  Wektor2D suma{};
   double xk = a.getX() + b.getX();
   double yk = a.getY() + b.getY();
   suma.setX(xk);
